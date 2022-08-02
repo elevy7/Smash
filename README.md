@@ -1,5 +1,5 @@
 # Smash - Small-Shell Project
-This "small shell" supports a limited subset of linux shell commands with a special "Jobs-List" and Modified signal Handlers(SIGSTP,SIGINL,SIGALRM).
+This "small shell" supports a limited subset of linux shell commands with a special "Jobs-List" and Modified signal Handlers(SIGSTP,SIGINT,SIGALRM).
 
 ## Built-In commands 
 (built-in commands ignore the '&' character and can't be run in the background)
