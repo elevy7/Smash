@@ -24,7 +24,7 @@ bg [job-id] - bg command resumes one of the stopped processes in the background.
 
 tail [-N] <file-name> - tail command prints the last N lines of the file which it is given to the standard output.
 
-touch <file-name> <timestamp> - touch command receives 2 arguments: <timestamp> should contain time inthe following format: ss:mm:hh:dd:mm:yyyy 
+touch <file-name> <timestamp> - touch command receives 2 arguments: <timestamp> should contain time in the following format: ss:mm:hh:dd:mm:yyyy 
                                 (stands for seconds, minutes, hours, day, month and year respectively).
                                 This command will update the file’s last access and modification timestamps to be the time specified in the <timestamp> argument.
                                 
