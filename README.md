@@ -16,7 +16,7 @@ jobs - jobs command prints the jobs list which contains:
         1. unfinished jobs (which are running in the background).
         2. stopped jobs (which were stopped by pressing Ctrl+Z while they are running).
         
-kill -[signum] [jobid] -  kill command sends a signal whose number is specified by <signum> to a job whose sequence ID in jobs list is <job-id> (same as job-id in jobs                           command), and prints a message reporting that the specified signal was sent to the specified job.  
+kill -[signum] [jobid] -  kill command sends a signal whose number is specified by [signum] to a job whose sequence ID in jobs list is [job-id] (same as job-id in jobs                           command), and prints a message reporting that the specified signal was sent to the specified job.  
 
 fg [job-id] - fg command brings a stopped process or a process that runs in the background to the foreground.
 
