@@ -22,13 +22,13 @@ fg [job-id] - fg command brings a stopped process or a process that runs in the 
 
 bg [job-id] - bg command resumes one of the stopped processes in the background.
 
-tail [-N] <file-name> - tail command prints the last N lines of the file which it is given to the standard output.
+tail [-N] [file-name] - tail command prints the last N lines of the file which it is given to the standard output.
 
-touch <file-name> <timestamp> - touch command receives 2 arguments: <timestamp> should contain time in the following format: ss:mm:hh:dd:mm:yyyy 
+touch [file-name] [timestamp] - touch command receives 2 arguments: <timestamp> should contain time in the following format: ss:mm:hh:dd:mm:yyyy 
                                 (stands for seconds, minutes, hours, day, month and year respectively).
                                 This command will update the file’s last access and modification timestamps to be the time specified in the <timestamp> argument.
                                 
-timeout <duration> <command> - sets an alarm for ‘duration’ seconds, and runs the given ‘command’ as though it was given to the smash directly, and when the time is up                                  it shall send a SIGKILL to the given command’s process (unless it’s the smash itself).
+timeout [duration] [command] - sets an alarm for ‘duration’ seconds, and runs the given ‘command’ as though it was given to the smash directly, and when the time is up                                  it shall send a SIGKILL to the given command’s process (unless it’s the smash itself).
 
 quit [kill] - quit command exits the smash. If the kill argument was specified, kills all of its unfinished and stopped jobs before exiting.
 
